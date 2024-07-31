@@ -229,7 +229,7 @@ function App() {
   return (
     <Container>
       <LogoutButton onClick={handleLogout}>Logout</LogoutButton>
-      <Title>Message Board</Title>
+      <Title>Todo App</Title>
 
       <Form onSubmit={onSubmit}>
         <Input ref={contentRef} required placeholder="Type a message..." />
